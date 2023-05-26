@@ -1,0 +1,77 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+body,h1,h2,h3,h4,h5,h6,p,span{
+    font-family: 'Open Sans', sans-serif;
+  
+}
+.container{
+width: 1360px;
+height: 910px;
+background: rgba(255, 144, 14, 0.1);
+
+    
+}
+.container header nav {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.container header nav ul li{
+    display: inline;
+  
+}
+.container header nav ul li a{
+    padding: 15px 26px;
+    text-decoration: none;
+    line-height: 95px;
+    color: #424242;
+    Size:18px; 
+}
+.container header nav h4{
+    line-height:90px;
+    font-weight: 700;
+    font-size: 45px;
+}
+/*----------------------------------------------------------------
+                          banner section
+ -------------------------------------------------------------- */
+.banner{
+    text-align: center;
+    margin-top: 25px;
+
+}
+.banner h3{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+}
+.banner p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.banner img{
+    margin-top: 20px;
+    width: 1000px ;
+    height: 480px;
+}
+.banner button{
+    background: orange;
+    margin: auto;
+    display: block;
+    padding: 18px 25px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+}
+.banner button a{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
