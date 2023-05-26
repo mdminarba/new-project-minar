@@ -75,3 +75,81 @@ background: rgba(255, 144, 14, 0.1);
     text-align: center;
     color: #FFFFFF;
 }
+
+/*----------------------------------------------------------------
+                         blogs section
+ -------------------------------------------------------------- */
+
+
+
+.blogs img{
+    Width:280px;
+    Height:280px;
+}
+.blogs{
+    display: flex;
+    width: 1000px ;
+    height: 620px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+.blogs-pic{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap:30px ;
+    flex-wrap: wrap;
+    
+}
+.blogs-conten {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: auto;
+    flex-wrap: wrap;
+  
+
+}
+.blogs .blogs-conten {
+    margin-left: 80px;
+
+}
+.blogs-conten h5{
+    color: #727272;
+    font-size: 40px;
+   
+}
+.blogs-conten span{
+    color: #131313;
+}
+.blogs-conten h4{
+    font-size: 40px;
+    color: #FF900E;
+    
+}
+.blogs-conten p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    margin-left: 18px;
+    width: 430px;
+    color: #727272;
+}
+.blogs-conten button {
+    display: block;
+    background: #FF900E;
+    padding: 18px 25px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 25px;
+    margin-left: 18px;
+}
+.blogs-conten button a{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+   
+}
