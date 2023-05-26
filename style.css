@@ -365,8 +365,25 @@ background: rgba(255, 144, 14, 0.1);
     
 
         /*----------------------------------------------------------------
-                           conten-section
+                           icon-section
         ------------------------------------------------------------- */
+
+        .icon{
+            filter: grayscale(100%);
+            display: flex;
+            gap: 80px;
+            justify-content: center;
+            margin-top: 50px;
+            position: relative;
+            margin-bottom: 100px;
+           
+         
+        }
+        .icon span img{
+           width: 130px;
+           height: 40px;
+        
+        }
 
     
     
